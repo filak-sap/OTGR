@@ -4,26 +4,20 @@
   <asx:values>
    <OTGR>
     <CLS_TYPE_GROUP>
-     <NAME>Z_AG_TEST_OBJECT_GROUP</NAME>
+     <NAME>Z_AG_TEST_OBJECT_GROUP_CHILD</NAME>
     </CLS_TYPE_GROUP>
     <TEXTS>
      <CLS_TYPE_GROUPT>
       <LANGU>E</LANGU>
-      <TEXT>abapGit: a sample object  testing serialization</TEXT>
+      <TEXT>abapGit: a sample child object</TEXT>
      </CLS_TYPE_GROUPT>
     </TEXTS>
-    <ELEMENTS>
-     <CLS_TYGR_ELEMENT>
-      <TYPE>CLAS</TYPE>
-     </CLS_TYGR_ELEMENT>
-     <CLS_TYGR_ELEMENT>
-      <TYPE>INTF</TYPE>
-     </CLS_TYGR_ELEMENT>
-     <CLS_TYGR_ELEMENT>
-      <TYPE>Z_AG_TEST_OBJECT_GROUP_CHILD</TYPE>
-     </CLS_TYGR_ELEMENT>
-    </ELEMENTS>
    </OTGR>
+   <PARENTS>
+    <CLS_TYGR_PARENT>
+     <PARENT>Z_AG_TEST_OBJECT_GROUP</PARENT>
+    </CLS_TYGR_PARENT>
+   </PARENTS>
   </asx:values>
  </asx:abap>
 </abapGit>
